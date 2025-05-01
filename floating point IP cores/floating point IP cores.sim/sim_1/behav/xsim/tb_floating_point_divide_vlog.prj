@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../floating point IP cores.srcs/sources_1/new/floating_point_divided.v" \
+"../../../../floating point IP cores.srcs/sim_1/new/tb_floating_point_divide.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

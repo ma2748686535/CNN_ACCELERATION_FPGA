@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_floating_point_fpu_all_behav/xsimk.exe -simmode gui -wdb tb_floating_point_fpu_all_behav.wdb -simrunnum 0 -socket 59693
+Design successfully loaded
+Design Loading Memory Usage: 12144 KB (Peak: 12144 KB)
+Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 15348 KB (Peak: 15348 KB)
+Simulation CPU Usage: 46 ms

@@ -1,0 +1,85 @@
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:199:5: warning: Added loop label VITIS_LOOP_30_1:   [xilinx-label-all-loops]
+    for (int co = 0; co < 8; co++) {
+    ^~~
+    VITIS_LOOP_30_1: 
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:199:5: note: FIX-IT applied suggested code changes
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:200:9: warning: Added loop label VITIS_LOOP_31_2:   [xilinx-label-all-loops]
+        for (int i = 0; i < 30; i++) {
+        ^~~
+        VITIS_LOOP_31_2: 
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:200:9: note: FIX-IT applied suggested code changes
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:201:13: warning: Added loop label VITIS_LOOP_32_3:   [xilinx-label-all-loops]
+            for (int j = 0; j < 30; j++) {
+            ^~~
+            VITIS_LOOP_32_3: 
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:201:13: note: FIX-IT applied suggested code changes
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:204:17: warning: Added loop label VITIS_LOOP_35_4:   [xilinx-label-all-loops]
+                for (int ci = 0; ci < 3; ci++) {
+                ^~~
+                VITIS_LOOP_35_4: 
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:204:17: note: FIX-IT applied suggested code changes
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:205:21: warning: Added loop label VITIS_LOOP_36_5:   [xilinx-label-all-loops]
+                    for (int ki = 0; ki < 3; ki++) {
+                    ^~~
+                    VITIS_LOOP_36_5: 
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:205:21: note: FIX-IT applied suggested code changes
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:206:25: warning: Added loop label VITIS_LOOP_37_6:   [xilinx-label-all-loops]
+                        for (int kj = 0; kj < 3; kj++) {
+                        ^~~
+                        VITIS_LOOP_37_6: 
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:206:25: note: FIX-IT applied suggested code changes
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:217:5: warning: Added loop label VITIS_LOOP_48_7:   [xilinx-label-all-loops]
+    for (int co = 0; co < 16; co++) {
+    ^~~
+    VITIS_LOOP_48_7: 
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:217:5: note: FIX-IT applied suggested code changes
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:218:9: warning: Added loop label VITIS_LOOP_49_8:   [xilinx-label-all-loops]
+        for (int i = 0; i < 28; i++) {
+        ^~~
+        VITIS_LOOP_49_8: 
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:218:9: note: FIX-IT applied suggested code changes
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:219:13: warning: Added loop label VITIS_LOOP_50_9:   [xilinx-label-all-loops]
+            for (int j = 0; j < 28; j++) {
+            ^~~
+            VITIS_LOOP_50_9: 
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:219:13: note: FIX-IT applied suggested code changes
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:222:17: warning: Added loop label VITIS_LOOP_53_10:   [xilinx-label-all-loops]
+                for (int ci = 0; ci < 8; ci++) {
+                ^~~
+                VITIS_LOOP_53_10: 
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:222:17: note: FIX-IT applied suggested code changes
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:223:21: warning: Added loop label VITIS_LOOP_54_11:   [xilinx-label-all-loops]
+                    for (int ki = 0; ki < 3; ki++) {
+                    ^~~
+                    VITIS_LOOP_54_11: 
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:223:21: note: FIX-IT applied suggested code changes
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:224:25: warning: Added loop label VITIS_LOOP_55_12:   [xilinx-label-all-loops]
+                        for (int kj = 0; kj < 3; kj++) {
+                        ^~~
+                        VITIS_LOOP_55_12: 
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:224:25: note: FIX-IT applied suggested code changes
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:235:5: warning: Added loop label VITIS_LOOP_66_13:   [xilinx-label-all-loops]
+    for (int c = 0; c < 16; c++) {
+    ^~~
+    VITIS_LOOP_66_13: 
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:235:5: note: FIX-IT applied suggested code changes
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:238:9: warning: Added loop label VITIS_LOOP_69_14:   [xilinx-label-all-loops]
+        for (int i = 0; i < 28; i++) {
+        ^~~
+        VITIS_LOOP_69_14: 
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:238:9: note: FIX-IT applied suggested code changes
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:239:13: warning: Added loop label VITIS_LOOP_70_15:   [xilinx-label-all-loops]
+            for (int j = 0; j < 28; j++) {
+            ^~~
+            VITIS_LOOP_70_15: 
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:239:13: note: FIX-IT applied suggested code changes
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:247:5: warning: Added loop label VITIS_LOOP_78_16:   [xilinx-label-all-loops]
+    for (int i = 0; i < 10; i++) {
+    ^~~
+    VITIS_LOOP_78_16: 
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:247:5: note: FIX-IT applied suggested code changes
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:250:9: warning: Added loop label VITIS_LOOP_81_17:   [xilinx-label-all-loops]
+        for (int j = 0; j < 16; j++) {
+        ^~~
+        VITIS_LOOP_81_17: 
+C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp:250:9: note: FIX-IT applied suggested code changes

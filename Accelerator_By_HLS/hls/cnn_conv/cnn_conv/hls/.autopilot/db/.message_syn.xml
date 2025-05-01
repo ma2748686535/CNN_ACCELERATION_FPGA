@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Messages>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished File checks and directory preparation: CPU user time: 2 seconds. CPU system time: 1 seconds. Elapsed time: 2.613 seconds; current allocated memory: 258.480 MB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1312" tag="" content="Analyzing design file &apos;C:/Users/Administrator/Desktop/EEE/full_cnn.cpp&apos; ..." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.465 seconds; current allocated memory: 261.438 MB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-777]" key="HLS 200-777" tag="" content="Using interface defaults for &apos;Vivado&apos; flow target." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-1995]" key="HLS 200-1995" tag="" content="There were 304 instructions in the design after the &apos;Compile/Link&apos; phase of compilation. See the Design Size Report for more details: C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/cnn_conv/hls/syn/report/csynth_design_size.rpt" resolution=""/>
+</Messages>

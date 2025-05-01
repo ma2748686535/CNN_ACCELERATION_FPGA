@@ -1,0 +1,156 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\Administrator\\Desktop\\EEE\\hls\\hls_component\\full_cnn\\full_cnn.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "04/04/25 20:28:27",
+ "timestampMillis": "1743769707989",
+ "buildStep": {
+  "cmdId": "a38c4447-a073-43b1-870e-17c6830cbb88",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\Administrator\\Desktop\\EEE\\hls\\hls_component\\full_cnn\\logs\\full_cnn.steps.log",
+  "commandLine": "D:/Vitis/2024.2/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config C:\\Users\\Administrator\\Desktop\\EEE\\hls\\hls_component\\..\\cnn_conv\\hls_config.cfg --work_dir full_cnn ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\hls_component\\..\\cnn_conv\\hls_config.cfg",
+   "--work_dir",
+   "full_cnn"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\hls_component"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/04/25 20:28:27",
+ "timestampMillis": "1743769707989",
+ "status": {
+  "cmdId": "a38c4447-a073-43b1-870e-17c6830cbb88",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "04/04/25 20:28:32",
+ "timestampMillis": "1743769712947",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "full_cnn",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\Administrator\\Desktop\\EEE\\full_cnn.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "04/04/25 20:28:32",
+ "timestampMillis": "1743769712948",
+ "buildStep": {
+  "cmdId": "791cb848-06a4-4bb1-b3ae-f31c519a9228",
+  "name": "",
+  "logFile": "C:/Users\\Administrator\\Desktop\\EEE\\hls\\hls_component\\full_cnn\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\hls_component"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/04/25 20:28:32",
+ "timestampMillis": "1743769712948",
+ "status": {
+  "cmdId": "791cb848-06a4-4bb1-b3ae-f31c519a9228",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/04/25 20:28:39",
+ "timestampMillis": "1743769719232",
+ "status": {
+  "cmdId": "791cb848-06a4-4bb1-b3ae-f31c519a9228",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/04/25 20:28:39",
+ "timestampMillis": "1743769719385",
+ "status": {
+  "cmdId": "a38c4447-a073-43b1-870e-17c6830cbb88",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/04/25 20:28:39",
+ "timestampMillis": "1743769719385",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/04/25 20:28:39",
+ "timestampMillis": "1743769719386",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

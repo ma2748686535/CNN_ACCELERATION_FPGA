@@ -1,0 +1,71 @@
+  **** HLS Build v2024.2 5238294
+INFO: [HLS 200-2005] Using work_dir C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/cnn_conv 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/Administrator/Desktop/EEE/full_cnn.cpp' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(11)
+INFO: [HLS 200-10] Adding design file 'C:/Users/Administrator/Desktop/EEE/full_cnn.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/Administrator/Desktop/EEE/full_cnn_tb.cpp' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(12)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/Administrator/Desktop/EEE/full_cnn_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=full_cnn' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(10)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xc7z020clg400-2' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-2'
+INFO: [HLS 200-1465] Applying ini 'clock=10ns' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(7)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying ini 'clock_uncertainty=2ns' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(8)
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 2ns.
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=1' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(9)
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(5)
+INFO: [SIM 211-200] Executing Code Analyzer instead of classic HLS C simulation
+INFO: [HLS 211-200] Compiling source code C:/Users/Administrator/Desktop/EEE/full_cnn.cpp as hardware code with instrumentation
+INFO: [HLS 211-200] Compiling source code C:/Users/Administrator/Desktop/EEE/full_cnn_tb.cpp as test bench code with instrumentation
+INFO: [HLS 211-200] Compiling source code C:/Users/Administrator/Desktop/EEE/full_cnn.cpp as test bench code with instrumentation
+In file included from C:/Users/Administrator/Desktop/EEE/full_cnn.cpp:5:
+C:/Users/Administrator/Desktop/EEE/conv1_w.h:7:1: error: expected '}'
+0.17204699f, 0.23300210f, -0.04825003f, -0.00827984f, -0.31195429f, 0.22160055f, -0.03517850f, 0.25990704f
+^
+C:/Users/Administrator/Desktop/EEE/conv1_w.h:1:30: note: to match this '{'
+float conv1_w[3][3][3][32] = {
+                             ^
+In file included from C:/Users/Administrator/Desktop/EEE/full_cnn.cpp:6:
+C:/Users/Administrator/Desktop/EEE/conv1_b.h:3:1: error: expected '}'
+0.42281106f, -0.19660026f, -0.01968116f, -0.01326154f, 0.19263618f, 0.07230207f, 0.56095624f, -0.24758416f
+^
+C:/Users/Administrator/Desktop/EEE/conv1_b.h:1:21: note: to match this '{'
+float conv1_b[32] = {
+                    ^
+In file included from C:/Users/Administrator/Desktop/EEE/full_cnn.cpp:7:
+C:/Users/Administrator/Desktop/EEE/conv2_w.h:7:1: error: expected '}'
+0.00509883f, -0.04661381f, 0.10880454f, 0.01853728f, 0.00642898f, -0.17765750f, -0.08282195f, 0.07485718f
+^
+C:/Users/Administrator/Desktop/EEE/conv2_w.h:1:31: note: to match this '{'
+float conv2_w[3][3][32][64] = {
+                              ^
+In file included from C:/Users/Administrator/Desktop/EEE/full_cnn.cpp:8:
+C:/Users/Administrator/Desktop/EEE/conv2_b.h:3:1: error: expected '}'
+0.48706716f, 0.46841565f, 0.76428765f, -0.11655307f, -0.04550019f, -0.05365190f, -0.07394801f, -0.19953655f
+^
+C:/Users/Administrator/Desktop/EEE/conv2_b.h:1:21: note: to match this '{'
+float conv2_b[64] = {
+                    ^
+In file included from C:/Users/Administrator/Desktop/EEE/full_cnn.cpp:9:
+C:/Users/Administrator/Desktop/EEE/fc_w.h:4:1: error: expected '}'
+0.13025180f, -0.14499208f, -0.33692640f, -0.08799461f, -0.50546324f, 0.09440971f, 0.00902976f, 0.02243881f
+^
+C:/Users/Administrator/Desktop/EEE/fc_w.h:1:23: note: to match this '{'
+float fc_w[64][101] = {
+                      ^
+In file included from C:/Users/Administrator/Desktop/EEE/full_cnn.cpp:10:
+C:/Users/Administrator/Desktop/EEE/fc_b.h:3:1: error: expected '}'
+0.10332133f, -0.07620158f, -0.42401317f, -0.03034443f, -0.30478013f, -0.40227377f, -0.22179155f, -0.07148904f
+^
+C:/Users/Administrator/Desktop/EEE/fc_b.h:1:19: note: to match this '{'
+float fc_b[101] = {
+                  ^
+6 errors generated.
+slxcmd:0:0: warning: Non-zero exit code: 1 returned by 'INFO: [HLS 211-200] Compiling source code C:/Users/Administrator/Desktop/EEE/full_cnn.cpp as hardware code with instrumentation'
+ERROR: [SIM 211-200] Code Analyzer execution failed. Consider running the classic C simulation instead by disabling the hls.csim.code_analyzer option in the config file.
+ERROR: Problem running csim: child process exited abnormally
+INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 1 seconds. Total elapsed time: 5.935 seconds; peak allocated memory: 258.625 MB.

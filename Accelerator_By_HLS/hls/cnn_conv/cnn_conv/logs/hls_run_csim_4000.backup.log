@@ -1,0 +1,205 @@
+  **** HLS Build v2024.2 5238294
+INFO: [HLS 200-2005] Using work_dir C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/cnn_conv 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/Administrator/Desktop/EEE/full_cnn.cpp' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(11)
+INFO: [HLS 200-10] Adding design file 'C:/Users/Administrator/Desktop/EEE/full_cnn.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/Administrator/Desktop/EEE/full_cnn_tb.cpp' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(12)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/Administrator/Desktop/EEE/full_cnn_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=full_cnn' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(10)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xc7z020clg400-2' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-2'
+INFO: [HLS 200-1465] Applying ini 'clock=10ns' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(7)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying ini 'clock_uncertainty=2ns' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(8)
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 2ns.
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=0' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(9)
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(5)
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+   Compiling ../../../../../../full_cnn_tb.cpp in debug mode
+csim.mk:88: recipe for target 'obj/full_cnn_tb.o' failed
+In file included from ../../../../../../full_cnn_tb.cpp:2:
+../../../../../../conv1_w.h:7:1: error: expected '}'
+0.17204699f, 0.23300210f, -0.04825003f, -0.00827984f, -0.31195429f, 0.22160055f, -0.03517850f, 0.25990704f
+^
+../../../../../../conv1_w.h:1:30: note: to match this '{'
+float conv1_w[3][3][3][32] = {
+                             ^
+In file included from ../../../../../../full_cnn_tb.cpp:3:
+../../../../../../conv1_b.h:3:1: error: expected '}'
+0.42281106f, -0.19660026f, -0.01968116f, -0.01326154f, 0.19263618f, 0.07230207f, 0.56095624f, -0.24758416f
+^
+../../../../../../conv1_b.h:1:21: note: to match this '{'
+float conv1_b[32] = {
+                    ^
+In file included from ../../../../../../full_cnn_tb.cpp:4:
+../../../../../../conv2_w.h:7:1: error: expected '}'
+0.00509883f, -0.04661381f, 0.10880454f, 0.01853728f, 0.00642898f, -0.17765750f, -0.08282195f, 0.07485718f
+^
+../../../../../../conv2_w.h:1:31: note: to match this '{'
+float conv2_w[3][3][32][64] = {
+                              ^
+In file included from ../../../../../../full_cnn_tb.cpp:5:
+../../../../../../conv2_b.h:3:1: error: expected '}'
+0.48706716f, 0.46841565f, 0.76428765f, -0.11655307f, -0.04550019f, -0.05365190f, -0.07394801f, -0.19953655f
+^
+../../../../../../conv2_b.h:1:21: note: to match this '{'
+float conv2_b[64] = {
+                    ^
+In file included from ../../../../../../full_cnn_tb.cpp:6:
+../../../../../../fc_w.h:4:1: error: expected '}'
+0.13025180f, -0.14499208f, -0.33692640f, -0.08799461f, -0.50546324f, 0.09440971f, 0.00902976f, 0.02243881f
+^
+../../../../../../fc_w.h:1:23: note: to match this '{'
+float fc_w[64][101] = {
+                      ^
+In file included from ../../../../../../full_cnn_tb.cpp:7:
+../../../../../../fc_b.h:3:1: error: expected '}'
+0.10332133f, -0.07620158f, -0.42401317f, -0.03034443f, -0.30478013f, -0.40227377f, -0.22179155f, -0.07148904f
+^
+../../../../../../fc_b.h:1:19: note: to match this '{'
+float fc_b[101] = {
+                  ^
+In file included from ../../../../../../full_cnn_tb.cpp:9:
+In file included from ../../../../../../full_cnn.cpp:5:
+../../../../../../conv1_w.h:1:7: error: redefinition of 'conv1_w'
+float conv1_w[3][3][3][32] = {
+      ^
+../../../../../../full_cnn_tb.cpp:2:10: note: '../../../../../../conv1_w.h' included multiple times, additional include site here
+#include "conv1_w.h"
+         ^
+../../../../../../full_cnn.cpp:5:10: note: '../../../../../../conv1_w.h' included multiple times, additional include site here
+#include "conv1_w.h"
+         ^
+../../../../../../conv1_w.h:1:7: note: unguarded header; consider using #ifdef guards or #pragma once
+float conv1_w[3][3][3][32] = {
+      ^
+In file included from ../../../../../../full_cnn_tb.cpp:9:
+In file included from ../../../../../../full_cnn.cpp:5:
+../../../../../../conv1_w.h:7:1: error: expected '}'
+0.17204699f, 0.23300210f, -0.04825003f, -0.00827984f, -0.31195429f, 0.22160055f, -0.03517850f, 0.25990704f
+^
+../../../../../../conv1_w.h:1:30: note: to match this '{'
+float conv1_w[3][3][3][32] = {
+                             ^
+In file included from ../../../../../../full_cnn_tb.cpp:9:
+In file included from ../../../../../../full_cnn.cpp:6:
+../../../../../../conv1_b.h:1:7: error: redefinition of 'conv1_b'
+float conv1_b[32] = {
+      ^
+../../../../../../full_cnn_tb.cpp:3:10: note: '../../../../../../conv1_b.h' included multiple times, additional include site here
+#include "conv1_b.h"
+         ^
+../../../../../../full_cnn.cpp:6:10: note: '../../../../../../conv1_b.h' included multiple times, additional include site here
+#include "conv1_b.h"
+         ^
+../../../../../../conv1_b.h:1:7: note: unguarded header; consider using #ifdef guards or #pragma once
+float conv1_b[32] = {
+      ^
+In file included from ../../../../../../full_cnn_tb.cpp:9:
+In file included from ../../../../../../full_cnn.cpp:6:
+../../../../../../conv1_b.h:3:1: error: expected '}'
+0.42281106f, -0.19660026f, -0.01968116f, -0.01326154f, 0.19263618f, 0.07230207f, 0.56095624f, -0.24758416f
+^
+../../../../../../conv1_b.h:1:21: note: to match this '{'
+float conv1_b[32] = {
+                    ^
+In file included from ../../../../../../full_cnn_tb.cpp:9:
+In file included from ../../../../../../full_cnn.cpp:7:
+../../../../../../conv2_w.h:1:7: error: redefinition of 'conv2_w'
+float conv2_w[3][3][32][64] = {
+      ^
+../../../../../../full_cnn_tb.cpp:4:10: note: '../../../../../../conv2_w.h' included multiple times, additional include site here
+#include "conv2_w.h"
+         ^
+../../../../../../full_cnn.cpp:7:10: note: '../../../../../../conv2_w.h' included multiple times, additional include site here
+#include "conv2_w.h"
+         ^
+../../../../../../conv2_w.h:1:7: note: unguarded header; consider using #ifdef guards or #pragma once
+float conv2_w[3][3][32][64] = {
+      ^
+In file included from ../../../../../../full_cnn_tb.cpp:9:
+In file included from ../../../../../../full_cnn.cpp:7:
+../../../../../../conv2_w.h:7:1: error: expected '}'
+0.00509883f, -0.04661381f, 0.10880454f, 0.01853728f, 0.00642898f, -0.17765750f, -0.08282195f, 0.07485718f
+^
+../../../../../../conv2_w.h:1:31: note: to match this '{'
+float conv2_w[3][3][32][64] = {
+                              ^
+In file included from ../../../../../../full_cnn_tb.cpp:9:
+In file included from ../../../../../../full_cnn.cpp:8:
+../../../../../../conv2_b.h:1:7: error: redefinition of 'conv2_b'
+float conv2_b[64] = {
+      ^
+../../../../../../full_cnn_tb.cpp:5:10: note: '../../../../../../conv2_b.h' included multiple times, additional include site here
+#include "conv2_b.h"
+         ^
+../../../../../../full_cnn.cpp:8:10: note: '../../../../../../conv2_b.h' included multiple times, additional include site here
+#include "conv2_b.h"
+         ^
+../../../../../../conv2_b.h:1:7: note: unguarded header; consider using #ifdef guards or #pragma once
+float conv2_b[64] = {
+      ^
+In file included from ../../../../../../full_cnn_tb.cpp:9:
+In file included from ../../../../../../full_cnn.cpp:8:
+../../../../../../conv2_b.h:3:1: error: expected '}'
+0.48706716f, 0.46841565f, 0.76428765f, -0.11655307f, -0.04550019f, -0.05365190f, -0.07394801f, -0.19953655f
+^
+../../../../../../conv2_b.h:1:21: note: to match this '{'
+float conv2_b[64] = {
+                    ^
+In file included from ../../../../../../full_cnn_tb.cpp:9:
+In file included from ../../../../../../full_cnn.cpp:9:
+../../../../../../fc_w.h:1:7: error: redefinition of 'fc_w'
+float fc_w[64][101] = {
+      ^
+../../../../../../full_cnn_tb.cpp:6:10: note: '../../../../../../fc_w.h' included multiple times, additional include site here
+#include "fc_w.h"
+         ^
+../../../../../../full_cnn.cpp:9:10: note: '../../../../../../fc_w.h' included multiple times, additional include site here
+#include "fc_w.h"
+         ^
+../../../../../../fc_w.h:1:7: note: unguarded header; consider using #ifdef guards or #pragma once
+float fc_w[64][101] = {
+      ^
+In file included from ../../../../../../full_cnn_tb.cpp:9:
+In file included from ../../../../../../full_cnn.cpp:9:
+../../../../../../fc_w.h:4:1: error: expected '}'
+0.13025180f, -0.14499208f, -0.33692640f, -0.08799461f, -0.50546324f, 0.09440971f, 0.00902976f, 0.02243881f
+^
+../../../../../../fc_w.h:1:23: note: to match this '{'
+float fc_w[64][101] = {
+                      ^
+In file included from ../../../../../../full_cnn_tb.cpp:9:
+In file included from ../../../../../../full_cnn.cpp:10:
+../../../../../../fc_b.h:1:7: error: redefinition of 'fc_b'
+float fc_b[101] = {
+      ^
+../../../../../../full_cnn_tb.cpp:7:10: note: '../../../../../../fc_b.h' included multiple times, additional include site here
+#include "fc_b.h"
+         ^
+../../../../../../full_cnn.cpp:10:10: note: '../../../../../../fc_b.h' included multiple times, additional include site here
+#include "fc_b.h"
+         ^
+../../../../../../fc_b.h:1:7: note: unguarded header; consider using #ifdef guards or #pragma once
+float fc_b[101] = {
+      ^
+In file included from ../../../../../../full_cnn_tb.cpp:9:
+In file included from ../../../../../../full_cnn.cpp:10:
+../../../../../../fc_b.h:3:1: error: expected '}'
+0.10332133f, -0.07620158f, -0.42401317f, -0.03034443f, -0.30478013f, -0.40227377f, -0.22179155f, -0.07148904f
+^
+../../../../../../fc_b.h:1:19: note: to match this '{'
+float fc_b[101] = {
+                  ^
+18 errors generated.
+make: *** [obj/full_cnn_tb.o] Error 1
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+ERROR: 4
+INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 1 seconds. Total elapsed time: 5.415 seconds; peak allocated memory: 259.512 MB.

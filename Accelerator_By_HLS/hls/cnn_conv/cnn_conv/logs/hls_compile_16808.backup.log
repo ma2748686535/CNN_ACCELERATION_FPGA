@@ -1,0 +1,26 @@
+  **** HLS Build v2024.2 5238294
+INFO: [HLS 200-2005] Using work_dir C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/cnn_conv 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+WARNING: [HLS 200-1921] Skipping unknown ini [hls] entry 'directive.timeout=300' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(13)
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/Administrator/Desktop/EEE/full_cnn.cpp' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(12)
+INFO: [HLS 200-10] Adding design file 'C:/Users/Administrator/Desktop/EEE/full_cnn.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/Administrator/Desktop/EEE/full_cnn_tb.cpp' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(11)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/Administrator/Desktop/EEE/full_cnn_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=full_cnn' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(10)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xc7z020clg400-2' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-2'
+INFO: [HLS 200-1465] Applying ini 'clock=10ns' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(7)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying ini 'clock_uncertainty=2ns' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(8)
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 2ns.
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=0' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(9)
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(5)
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 3 seconds. CPU system time: 1 seconds. Elapsed time: 3.032 seconds; current allocated memory: 259.254 MB.
+INFO: [HLS 200-10] Analyzing design file 'C:/Users/Administrator/Desktop/EEE/full_cnn.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.627 seconds; current allocated memory: 261.926 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 112 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/cnn_conv/hls/syn/report/csynth_design_size.rpt

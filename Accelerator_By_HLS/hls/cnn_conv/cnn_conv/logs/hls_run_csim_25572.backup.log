@@ -1,0 +1,94 @@
+  **** HLS Build v2024.2 5238294
+INFO: [HLS 200-2005] Using work_dir C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/cnn_conv 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/Administrator/Desktop/EEE/full_cnn.cpp' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(11)
+INFO: [HLS 200-10] Adding design file 'C:/Users/Administrator/Desktop/EEE/full_cnn.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/Administrator/Desktop/EEE/full_cnn_tb.cpp' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(12)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/Administrator/Desktop/EEE/full_cnn_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=full_cnn' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(10)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xc7z020clg400-2' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-2'
+INFO: [HLS 200-1465] Applying ini 'clock=10ns' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(7)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying ini 'clock_uncertainty=2ns' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(8)
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 2ns.
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=0' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(9)
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(5)
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+   Compiling ../../../../../../full_cnn_tb.cpp in debug mode
+csim.mk:88: recipe for target 'obj/full_cnn_tb.o' failed
+In file included from ../../../../../../full_cnn_tb.cpp:2:
+../../../../../../conv1_w.h:111:7: error: expected unqualified-id
+    };.0f, };.0f
+      ^
+../../../../../../conv1_w.h:111:12: error: extraneous closing brace ('}')
+    };.0f, };.0f
+           ^
+../../../../../../conv1_w.h:111:14: error: expected unqualified-id
+    };.0f, };.0f
+             ^
+../../../../../../conv1_w.h:112:1: error: extraneous closing brace ('}')
+};
+^
+In file included from ../../../../../../full_cnn_tb.cpp:3:
+../../../../../../conv1_b.h:7:7: error: expected unqualified-id
+    };.0f, };.0f
+      ^
+../../../../../../conv1_b.h:7:12: error: extraneous closing brace ('}')
+    };.0f, };.0f
+           ^
+../../../../../../conv1_b.h:7:14: error: expected unqualified-id
+    };.0f, };.0f
+             ^
+../../../../../../conv1_b.h:8:1: error: extraneous closing brace ('}')
+};
+^
+In file included from ../../../../../../full_cnn_tb.cpp:4:
+../../../../../../conv2_w.h:2307:7: error: expected unqualified-id
+    };.0f, };.0f
+      ^
+../../../../../../conv2_w.h:2307:12: error: extraneous closing brace ('}')
+    };.0f, };.0f
+           ^
+../../../../../../conv2_w.h:2307:14: error: expected unqualified-id
+    };.0f, };.0f
+             ^
+../../../../../../conv2_w.h:2308:1: error: extraneous closing brace ('}')
+};
+^
+In file included from ../../../../../../full_cnn_tb.cpp:5:
+../../../../../../conv2_b.h:11:7: error: expected unqualified-id
+    };.0f, };.0f
+      ^
+../../../../../../conv2_b.h:11:12: error: extraneous closing brace ('}')
+    };.0f, };.0f
+           ^
+../../../../../../conv2_b.h:11:14: error: expected unqualified-id
+    };.0f, };.0f
+             ^
+../../../../../../conv2_b.h:12:1: error: extraneous closing brace ('}')
+};
+^
+In file included from ../../../../../../full_cnn_tb.cpp:6:
+../../../../../../fc_w.h:811:7: error: expected unqualified-id
+    };.0f, };.0f
+      ^
+../../../../../../fc_w.h:811:12: error: extraneous closing brace ('}')
+    };.0f, };.0f
+           ^
+../../../../../../fc_w.h:811:14: error: expected unqualified-id
+    };.0f, };.0f
+             ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+make: *** [obj/full_cnn_tb.o] Error 1
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+ERROR: 4
+INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 1 seconds. Total elapsed time: 3.975 seconds; peak allocated memory: 259.000 MB.

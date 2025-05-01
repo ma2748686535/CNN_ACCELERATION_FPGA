@@ -1,0 +1,6 @@
+Time resolution is 1 ps
+Time=0 | Input: data_a=00000000 data_b=00000000 partial_sum=00000000 | Control: mul_enable=0 add_enable=0 mul_valid=0 add_valid_out=0 mul_ready=1 add_ready=1 | Output: multi_res=00000000 add_results=00000000
+Time=120000 | Input: data_a=3f000000 data_b=3f400000 partial_sum=3f800000 | Control: mul_enable=0 add_enable=0 mul_valid=0 add_valid_out=0 mul_ready=1 add_ready=1 | Output: multi_res=00000000 add_results=00000000
+Time=130000 | Input: data_a=3f000000 data_b=3f400000 partial_sum=3f800000 | Control: mul_enable=1 add_enable=0 mul_valid=0 add_valid_out=0 mul_ready=1 add_ready=1 | Output: multi_res=00000000 add_results=00000000
+Time=135000 | Input: data_a=3f000000 data_b=3f400000 partial_sum=3f800000 | Control: mul_enable=1 add_enable=0 mul_valid=0 add_valid_out=0 mul_ready=0 add_ready=1 | Output: multi_res=00000000 add_results=00000000
+Time=155000 | Input: data_a=3f000000 data_b=3f400000 partial_sum=3f800000 | Control: mul_enable=1 add_enable=0 mul_valid=1 add_valid_out=0 mul_ready=0 add_ready=1 | Output: multi_res=3ec00000 add_results=00000000

@@ -1,0 +1,113 @@
+  **** HLS Build v2024.2 5238294
+INFO: [HLS 200-2005] Using work_dir C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/cnn_conv 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/Administrator/Desktop/EEE/full_cnn.cpp' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(11)
+INFO: [HLS 200-10] Adding design file 'C:/Users/Administrator/Desktop/EEE/full_cnn.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/Administrator/Desktop/EEE/full_cnn_tb.cpp' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(12)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/Administrator/Desktop/EEE/full_cnn_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=full_cnn' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(10)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xc7z020clg400-2' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-2'
+INFO: [HLS 200-1465] Applying ini 'clock=10ns' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(7)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying ini 'clock_uncertainty=2ns' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(8)
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 2ns.
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=1' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(9)
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/hls_config.cfg(5)
+INFO: [SIM 211-200] Executing Code Analyzer instead of classic HLS C simulation
+INFO: [HLS 211-200] Compiling source code C:/Users/Administrator/Desktop/EEE/full_cnn.cpp as hardware code with instrumentation
+INFO: [HLS 211-200] Compiling source code C:/Users/Administrator/Desktop/EEE/full_cnn_tb.cpp as test bench code with instrumentation
+INFO: [HLS 211-200] Compiling source code C:/Users/Administrator/Desktop/EEE/full_cnn.cpp as test bench code with instrumentation
+In file included from C:/Users/Administrator/Desktop/EEE/full_cnn_tb.cpp:9:
+In file included from C:/Users/Administrator/Desktop/EEE/full_cnn.cpp:5:
+C:/Users/Administrator/Desktop/EEE/conv1_w.h:1:7: error: redefinition of 'conv1_w'
+float conv1_w[3][3][3][32] = {
+      ^
+C:/Users/Administrator/Desktop/EEE/full_cnn_tb.cpp:2:10: note: 'C:/Users/Administrator/Desktop/EEE/conv1_w.h' included multiple times, additional include site here
+#include "conv1_w.h"
+         ^
+C:/Users/Administrator/Desktop/EEE/full_cnn.cpp:5:10: note: 'C:/Users/Administrator/Desktop/EEE/conv1_w.h' included multiple times, additional include site here
+#include "conv1_w.h"
+         ^
+C:/Users/Administrator/Desktop/EEE/conv1_w.h:1:7: note: unguarded header; consider using #ifdef guards or #pragma once
+float conv1_w[3][3][3][32] = {
+      ^
+In file included from C:/Users/Administrator/Desktop/EEE/full_cnn_tb.cpp:9:
+In file included from C:/Users/Administrator/Desktop/EEE/full_cnn.cpp:6:
+C:/Users/Administrator/Desktop/EEE/conv1_b.h:1:7: error: redefinition of 'conv1_b'
+float conv1_b[32] = {
+      ^
+C:/Users/Administrator/Desktop/EEE/full_cnn_tb.cpp:3:10: note: 'C:/Users/Administrator/Desktop/EEE/conv1_b.h' included multiple times, additional include site here
+#include "conv1_b.h"
+         ^
+C:/Users/Administrator/Desktop/EEE/full_cnn.cpp:6:10: note: 'C:/Users/Administrator/Desktop/EEE/conv1_b.h' included multiple times, additional include site here
+#include "conv1_b.h"
+         ^
+C:/Users/Administrator/Desktop/EEE/conv1_b.h:1:7: note: unguarded header; consider using #ifdef guards or #pragma once
+float conv1_b[32] = {
+      ^
+In file included from C:/Users/Administrator/Desktop/EEE/full_cnn_tb.cpp:9:
+In file included from C:/Users/Administrator/Desktop/EEE/full_cnn.cpp:7:
+C:/Users/Administrator/Desktop/EEE/conv2_w.h:1:7: error: redefinition of 'conv2_w'
+float conv2_w[3][3][32][64] = {
+      ^
+C:/Users/Administrator/Desktop/EEE/full_cnn_tb.cpp:4:10: note: 'C:/Users/Administrator/Desktop/EEE/conv2_w.h' included multiple times, additional include site here
+#include "conv2_w.h"
+         ^
+C:/Users/Administrator/Desktop/EEE/full_cnn.cpp:7:10: note: 'C:/Users/Administrator/Desktop/EEE/conv2_w.h' included multiple times, additional include site here
+#include "conv2_w.h"
+         ^
+C:/Users/Administrator/Desktop/EEE/conv2_w.h:1:7: note: unguarded header; consider using #ifdef guards or #pragma once
+float conv2_w[3][3][32][64] = {
+      ^
+In file included from C:/Users/Administrator/Desktop/EEE/full_cnn_tb.cpp:9:
+In file included from C:/Users/Administrator/Desktop/EEE/full_cnn.cpp:8:
+C:/Users/Administrator/Desktop/EEE/conv2_b.h:1:7: error: redefinition of 'conv2_b'
+float conv2_b[64] = {
+      ^
+C:/Users/Administrator/Desktop/EEE/full_cnn_tb.cpp:5:10: note: 'C:/Users/Administrator/Desktop/EEE/conv2_b.h' included multiple times, additional include site here
+#include "conv2_b.h"
+         ^
+C:/Users/Administrator/Desktop/EEE/full_cnn.cpp:8:10: note: 'C:/Users/Administrator/Desktop/EEE/conv2_b.h' included multiple times, additional include site here
+#include "conv2_b.h"
+         ^
+C:/Users/Administrator/Desktop/EEE/conv2_b.h:1:7: note: unguarded header; consider using #ifdef guards or #pragma once
+float conv2_b[64] = {
+      ^
+In file included from C:/Users/Administrator/Desktop/EEE/full_cnn_tb.cpp:9:
+In file included from C:/Users/Administrator/Desktop/EEE/full_cnn.cpp:9:
+C:/Users/Administrator/Desktop/EEE/fc_w.h:1:7: error: redefinition of 'fc_w'
+float fc_w[64][101] = {
+      ^
+C:/Users/Administrator/Desktop/EEE/full_cnn_tb.cpp:6:10: note: 'C:/Users/Administrator/Desktop/EEE/fc_w.h' included multiple times, additional include site here
+#include "fc_w.h"
+         ^
+C:/Users/Administrator/Desktop/EEE/full_cnn.cpp:9:10: note: 'C:/Users/Administrator/Desktop/EEE/fc_w.h' included multiple times, additional include site here
+#include "fc_w.h"
+         ^
+C:/Users/Administrator/Desktop/EEE/fc_w.h:1:7: note: unguarded header; consider using #ifdef guards or #pragma once
+float fc_w[64][101] = {
+      ^
+In file included from C:/Users/Administrator/Desktop/EEE/full_cnn_tb.cpp:9:
+In file included from C:/Users/Administrator/Desktop/EEE/full_cnn.cpp:10:
+C:/Users/Administrator/Desktop/EEE/fc_b.h:1:7: error: redefinition of 'fc_b'
+float fc_b[101] = {
+      ^
+C:/Users/Administrator/Desktop/EEE/full_cnn_tb.cpp:7:10: note: 'C:/Users/Administrator/Desktop/EEE/fc_b.h' included multiple times, additional include site here
+#include "fc_b.h"
+         ^
+C:/Users/Administrator/Desktop/EEE/full_cnn.cpp:10:10: note: 'C:/Users/Administrator/Desktop/EEE/fc_b.h' included multiple times, additional include site here
+#include "fc_b.h"
+         ^
+C:/Users/Administrator/Desktop/EEE/fc_b.h:1:7: note: unguarded header; consider using #ifdef guards or #pragma once
+float fc_b[101] = {
+      ^
+6 errors generated.
+slxcmd:0:0: warning: Non-zero exit code: 1 returned by 'INFO: [HLS 211-200] Compiling source code C:/Users/Administrator/Desktop/EEE/full_cnn_tb.cpp as test bench code with instrumentation'
+ERROR: [SIM 211-200] Code Analyzer execution failed. Consider running the classic C simulation instead by disabling the hls.csim.code_analyzer option in the config file.
+ERROR: Problem running csim: child process exited abnormally
+INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 1 seconds. Total elapsed time: 7.781 seconds; peak allocated memory: 258.172 MB.

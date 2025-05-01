@@ -1,0 +1,27 @@
+[
+  {
+    "directory": "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv",
+    "arguments": [
+      "D:\\Vitis\\2024.2\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=D:\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=D:\\Vitis\\2024.2\\common\\technology\\autopilot",
+      "-fhlstoplevel=full_cnn",
+      "-c",
+      "C:/Users/Administrator/Desktop/EEE/full_cnn.cpp"
+    ],
+    "file": "C:/Users/Administrator/Desktop/EEE/full_cnn.cpp"
+  },
+  {
+    "directory": "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv",
+    "arguments": [
+      "D:\\Vitis\\2024.2\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=D:\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=D:\\Vitis\\2024.2\\include",
+      "-c",
+      "C:/Users/Administrator/Desktop/EEE/full_cnn_tb.cpp"
+    ],
+    "file": "C:/Users/Administrator/Desktop/EEE/full_cnn_tb.cpp"
+  }
+]

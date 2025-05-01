@@ -1,0 +1,9 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch CLANG as the compiler.
+   Compiling ../../../../../../full_cnn_tb.cpp in debug mode
+   Compiling ../../../../../../full_cnn.cpp in debug mode
+   Generating csim.exe
+Output logits (first 10):
+-0.936881 -3.38182 -2.67339 -3.51186 -2.32842 -3.5071 -1.84672 -2.99009 -1.60008 -2.99942 
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

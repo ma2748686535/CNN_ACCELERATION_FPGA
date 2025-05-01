@@ -1,0 +1,157 @@
+---
+MainSourceFile:  'C:/Users/Administrator/Desktop/EEE/hls/cnn_conv/cnn_conv/hls/.autopilot/db/full_cnn.pp.0.cpp'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_30_1:  '
+    FileOffset:      30
+    FilePath:        'C:\Users\Administrator\Desktop\EEE\full_cnn.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp'
+        Offset:          11003
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_30_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_31_2:  '
+    FileOffset:      31
+    FilePath:        'C:\Users\Administrator\Desktop\EEE\full_cnn.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp'
+        Offset:          11044
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_31_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_32_3:  '
+    FileOffset:      32
+    FilePath:        'C:\Users\Administrator\Desktop\EEE\full_cnn.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp'
+        Offset:          11087
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_32_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_35_4:  '
+    FileOffset:      35
+    FilePath:        'C:\Users\Administrator\Desktop\EEE\full_cnn.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp'
+        Offset:          11176
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_35_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_36_5:  '
+    FileOffset:      36
+    FilePath:        'C:\Users\Administrator\Desktop\EEE\full_cnn.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp'
+        Offset:          11229
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_36_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_37_6:  '
+    FileOffset:      37
+    FilePath:        'C:\Users\Administrator\Desktop\EEE\full_cnn.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp'
+        Offset:          11286
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_37_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_48_7:  '
+    FileOffset:      48
+    FilePath:        'C:\Users\Administrator\Desktop\EEE\full_cnn.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp'
+        Offset:          11598
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_48_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_49_8:  '
+    FileOffset:      49
+    FilePath:        'C:\Users\Administrator\Desktop\EEE\full_cnn.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp'
+        Offset:          11640
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_49_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_50_9:  '
+    FileOffset:      50
+    FilePath:        'C:\Users\Administrator\Desktop\EEE\full_cnn.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp'
+        Offset:          11683
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_50_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_53_10:  '
+    FileOffset:      53
+    FilePath:        'C:\Users\Administrator\Desktop\EEE\full_cnn.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp'
+        Offset:          11772
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_53_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_54_11:  '
+    FileOffset:      54
+    FilePath:        'C:\Users\Administrator\Desktop\EEE\full_cnn.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp'
+        Offset:          11825
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_54_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_55_12:  '
+    FileOffset:      55
+    FilePath:        'C:\Users\Administrator\Desktop\EEE\full_cnn.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp'
+        Offset:          11882
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_55_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_66_13:  '
+    FileOffset:      66
+    FilePath:        'C:\Users\Administrator\Desktop\EEE\full_cnn.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp'
+        Offset:          12198
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_66_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_69_14:  '
+    FileOffset:      69
+    FilePath:        'C:\Users\Administrator\Desktop\EEE\full_cnn.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp'
+        Offset:          12272
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_69_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_70_15:  '
+    FileOffset:      70
+    FilePath:        'C:\Users\Administrator\Desktop\EEE\full_cnn.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp'
+        Offset:          12315
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_70_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_78_16:  '
+    FileOffset:      78
+    FilePath:        'C:\Users\Administrator\Desktop\EEE\full_cnn.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp'
+        Offset:          12463
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_78_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_81_17:  '
+    FileOffset:      81
+    FilePath:        'C:\Users\Administrator\Desktop\EEE\full_cnn.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\Administrator\Desktop\EEE\hls\cnn_conv\cnn_conv\hls\.autopilot\db\full_cnn.pp.0.cpp'
+        Offset:          12544
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_81_17: '
+...

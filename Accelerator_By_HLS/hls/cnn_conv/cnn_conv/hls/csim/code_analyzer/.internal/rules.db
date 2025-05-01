@@ -1,0 +1,296 @@
+{
+    "rules": {
+        "['C:\\\\Users\\\\Administrator\\\\Desktop\\\\EEE\\\\hls\\\\cnn_conv\\\\cnn_conv\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\conv1_layer.cpp.0.bc', 'C:\\\\Users\\\\Administrator\\\\Desktop\\\\EEE\\\\hls\\\\cnn_conv\\\\cnn_conv\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\conv1_layer.cpp.0.bc.d']": {
+            "command": [
+                "d:\\vitis\\2024.2\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-emit-llvm",
+                "-MD",
+                "-MF",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\build\\conv1_layer.cpp.0.bc.d",
+                "-fhls",
+                "-hls-syn-headers-dir=d:\\vitis\\2024.2\\vcxx\\data\\autopilot",
+                "-vitis-hls=D:\\Vitis\\2024.2",
+                "--sysroot=D:\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-hls-clock-period=10.0",
+                "-fslxtrace",
+                "-fslx-compile-mode",
+                "-fhlstoplevel=conv1_layer",
+                "C:/Users/Administrator/Desktop/EEE/conv1_layer.cpp",
+                "-o",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\build\\conv1_layer.cpp.0.bc"
+            ],
+            "exectime": 0.8163294792175293,
+            "cwd": "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv"
+        },
+        "['C:\\\\Users\\\\Administrator\\\\Desktop\\\\EEE\\\\hls\\\\cnn_conv\\\\cnn_conv\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\conv1_layer_tb.cpp.0.o', 'C:\\\\Users\\\\Administrator\\\\Desktop\\\\EEE\\\\hls\\\\cnn_conv\\\\cnn_conv\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\conv1_layer_tb.cpp.0.o.d']": {
+            "command": [
+                "d:\\vitis\\2024.2\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-MD",
+                "-MF",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\build\\conv1_layer_tb.cpp.0.o.d",
+                "-fhls-tb",
+                "-hls-sim-headers-dir=d:\\vitis\\2024.2\\vcxx\\data\\include",
+                "-vitis-hls=D:\\Vitis\\2024.2",
+                "--sysroot=D:\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-fslxtrace",
+                "-fslx-compile-mode",
+                "-fslxskipfunctionbody",
+                "-fhlstoplevel=conv1_layer",
+                "C:/Users/Administrator/Desktop/EEE/conv1_layer_tb.cpp",
+                "-o",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\build\\conv1_layer_tb.cpp.0.o"
+            ],
+            "exectime": 0.7611410617828369,
+            "cwd": "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv"
+        },
+        "['C:\\\\Users\\\\Administrator\\\\Desktop\\\\EEE\\\\hls\\\\cnn_conv\\\\cnn_conv\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\conv1_layer.cpp.0.o', 'C:\\\\Users\\\\Administrator\\\\Desktop\\\\EEE\\\\hls\\\\cnn_conv\\\\cnn_conv\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\conv1_layer.cpp.0.o.d']": {
+            "command": [
+                "d:\\vitis\\2024.2\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-MD",
+                "-MF",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\build\\conv1_layer.cpp.0.o.d",
+                "-fhls-tb",
+                "-hls-sim-headers-dir=d:\\vitis\\2024.2\\vcxx\\data\\include",
+                "-vitis-hls=D:\\Vitis\\2024.2",
+                "--sysroot=D:\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-fslxtrace",
+                "-fslx-compile-mode",
+                "-fslxskipfunctionbody",
+                "-fhlstoplevel=conv1_layer",
+                "C:/Users/Administrator/Desktop/EEE/conv1_layer.cpp",
+                "-o",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\build\\conv1_layer.cpp.0.o"
+            ],
+            "exectime": 0.39562296867370605,
+            "cwd": "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv"
+        },
+        "['C:\\\\Users\\\\Administrator\\\\Desktop\\\\EEE\\\\hls\\\\cnn_conv\\\\cnn_conv\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\syn_srcs.bc']": {
+            "command": [
+                "d:\\vitis\\2024.2\\vcxx\\/libexec/llvm-link.exe",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\build\\full_cnn.cpp.0.bc",
+                "-o",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.bc"
+            ],
+            "exectime": 0.029940366744995117,
+            "cwd": "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv"
+        },
+        "['C:\\\\Users\\\\Administrator\\\\Desktop\\\\EEE\\\\hls\\\\cnn_conv\\\\cnn_conv\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\syn_srcs.opt.bc']": {
+            "command": [
+                "d:\\vitis\\2024.2\\vcxx\\/libexec/opt.exe",
+                "-check-single-toplevel",
+                "-make-non-toplevel-internal",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.bc",
+                "-o",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.opt.bc"
+            ],
+            "exectime": 0.12467169761657715,
+            "cwd": "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv"
+        },
+        "['C:\\\\Users\\\\Administrator\\\\Desktop\\\\EEE\\\\hls\\\\cnn_conv\\\\cnn_conv\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\app.exe']": {
+            "command": [
+                "d:\\vitis\\2024.2\\vcxx\\/libexec/clang++.exe",
+                "-o",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\build\\app.exe",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\build\\full_cnn_tb.cpp.0.o",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\build\\full_cnn.cpp.0.o",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.opt.bc",
+                "-fhls",
+                "-fhlstoplevel=full_cnn",
+                "-LD:\\Vitis\\2024.2\\win64\\tools\\dds_v6_0",
+                "-lIp_dds_compiler_v6_0_bitacc_cmodel",
+                "-LD:\\Vitis\\2024.2\\win64\\tools\\fft_v9_1",
+                "-lIp_xfft_v9_1_bitacc_cmodel",
+                "-LD:\\Vitis\\2024.2\\win64\\tools\\fir_v7_0",
+                "-lIp_fir_compiler_v7_2_bitacc_cmodel",
+                "-LD:\\Vitis\\2024.2\\win64\\tools\\fpo_v7_1",
+                "-lIp_floating_point_v7_1_bitacc_cmodel",
+                "-lm",
+                "-LD:\\Vitis\\2024.2\\win64\\lib\\csim",
+                "-lhlsm-GCC95-x64",
+                "-lhlsmc++-GCC95-x64",
+                "-lgmp",
+                "-lmpfr",
+                "--sysroot=D:\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-LD:\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt\\x86_64-w64-mingw32\\lib",
+                "-LD:\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt\\lib",
+                "-LD:\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt\\lib\\gcc",
+                "-LD:\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt\\lib\\gcc\\x86_64-w64-mingw32\\9.5.0",
+                "-LD:\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt\\libexec\\gcc\\x86_64-w64-mingw32\\9.5.0",
+                "-fslxtrace",
+                "-fslx-compile-mode",
+                "-Wl,-mllvm,-profilerOutputDirectory=C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\profiler\\0",
+                "-fslxpthreads",
+                "-lpthread"
+            ],
+            "exectime": 1.2569820880889893,
+            "cwd": "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv"
+        },
+        "['C:\\\\Users\\\\Administrator\\\\Desktop\\\\EEE\\\\hls\\\\cnn_conv\\\\cnn_conv\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\instrument\\\\app_0\\\\hls_ir_info.json']": {
+            "command": [
+                "d:\\vitis\\2024.2\\vcxx\\/libexec/irInfoDump.exe",
+                "--ir-module",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\project.symbols.bc",
+                "--json-output",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\hls_ir_info.json",
+                "--hw-function",
+                "full_cnn"
+            ],
+            "exectime": 0.08612847328186035,
+            "cwd": "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv"
+        },
+        "['C:\\\\Users\\\\Administrator\\\\Desktop\\\\EEE\\\\hls\\\\cnn_conv\\\\cnn_conv\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\instrument\\\\app_0\\\\binary_dependencies.json']": {
+            "command": [
+                "d:\\vitis\\2024.2\\vcxx\\libexec\\clang-scan-deps.exe",
+                "--compilation-database=C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\compile_commands.json",
+                "--format=vitiscxx",
+                "--reuse-filemanager=false",
+                "--output=C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\binary_dependencies.json"
+            ],
+            "exectime": 0.2043464183807373,
+            "cwd": "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv"
+        },
+        "['C:\\\\Users\\\\Administrator\\\\Desktop\\\\EEE\\\\hls\\\\cnn_conv\\\\cnn_conv\\\\hls\\\\csim\\\\code_analyzer\\\\bin\\\\.tracing_stdout.txt', 'C:\\\\Users\\\\Administrator\\\\Desktop\\\\EEE\\\\hls\\\\cnn_conv\\\\cnn_conv\\\\hls\\\\csim\\\\code_analyzer\\\\bin\\\\.tracing_stderr.txt']": {
+            "command": [
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\build\\app.exe"
+            ],
+            "exectime": 0.448397159576416,
+            "cwd": "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\tracing\\csim\\build"
+        },
+        "['C:\\\\Users\\\\Administrator\\\\Desktop\\\\EEE\\\\hls\\\\cnn_conv\\\\cnn_conv\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\instrument\\\\app_0\\\\annotated.bc']": {
+            "command": [
+                "d:\\vitis\\2024.2\\vcxx\\/libexec/optimizer.exe",
+                "-DFGPass",
+                "-outputDir",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\output",
+                "-logDir",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\log",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\project.symbols.bc",
+                "-staticFile",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\static.xml",
+                "-traceFile",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\profiler\\0\\app_0_1\\thread0000-trace.txt",
+                "-o",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\annotated.bc"
+            ],
+            "exectime": 40.79153370857239,
+            "cwd": "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv"
+        },
+        "['C:\\\\Users\\\\Administrator\\\\Desktop\\\\EEE\\\\hls\\\\cnn_conv\\\\cnn_conv\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\dataflow\\\\0\\\\taskgraph.json']": {
+            "command": [
+                "d:\\vitis\\2024.2\\vcxx\\/libexec/parallelismSelector.exe",
+                "--basepath",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv",
+                "--fpga-part",
+                "xc7z020-clg400-2",
+                "--device-totals",
+                "d:\\vitis\\2024.2\\vcxx\\data\\platform\\logic\\fpga.devicetotals",
+                "--clock-frequency",
+                "100.0",
+                "--out-dir",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\output",
+                "--log-dir",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\log",
+                "--objective",
+                "none",
+                "--performance-target",
+                "target_both",
+                "--max-array-optimization-factor",
+                "1024",
+                "--complete-partition-limit",
+                "4",
+                "--lut-constraint",
+                "100.0",
+                "--ff-constraint",
+                "100.0",
+                "--dsp-constraint",
+                "100.0",
+                "--bram-constraint",
+                "100.0",
+                "--uram-constraint",
+                "100.0",
+                "--max-iterations",
+                "1000",
+                "--max-iterations-branch-full-log",
+                "20",
+                "--ir-module",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\annotated.bc",
+                "--df-id",
+                "0",
+                "--df-target",
+                "%F211"
+            ],
+            "exectime": 0.9353282451629639,
+            "cwd": "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv"
+        },
+        "['C:\\\\Users\\\\Administrator\\\\Desktop\\\\EEE\\\\hls\\\\cnn_conv\\\\cnn_conv\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\full_cnn.cpp.0.bc', 'C:\\\\Users\\\\Administrator\\\\Desktop\\\\EEE\\\\hls\\\\cnn_conv\\\\cnn_conv\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\full_cnn.cpp.0.bc.d']": {
+            "command": [
+                "d:\\vitis\\2024.2\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-emit-llvm",
+                "-MD",
+                "-MF",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\build\\full_cnn.cpp.0.bc.d",
+                "-fhls",
+                "-hls-syn-headers-dir=d:\\vitis\\2024.2\\vcxx\\data\\autopilot",
+                "-vitis-hls=D:\\Vitis\\2024.2",
+                "--sysroot=D:\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-hls-clock-period=10.0",
+                "-fslxtrace",
+                "-fslx-compile-mode",
+                "-fhlstoplevel=full_cnn",
+                "C:/Users/Administrator/Desktop/EEE/full_cnn.cpp",
+                "-o",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\build\\full_cnn.cpp.0.bc"
+            ],
+            "exectime": 0.5079123973846436,
+            "cwd": "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv"
+        },
+        "['C:\\\\Users\\\\Administrator\\\\Desktop\\\\EEE\\\\hls\\\\cnn_conv\\\\cnn_conv\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\full_cnn_tb.cpp.0.o', 'C:\\\\Users\\\\Administrator\\\\Desktop\\\\EEE\\\\hls\\\\cnn_conv\\\\cnn_conv\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\full_cnn_tb.cpp.0.o.d']": {
+            "command": [
+                "d:\\vitis\\2024.2\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-MD",
+                "-MF",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\build\\full_cnn_tb.cpp.0.o.d",
+                "-fhls-tb",
+                "-hls-sim-headers-dir=d:\\vitis\\2024.2\\vcxx\\data\\include",
+                "-vitis-hls=D:\\Vitis\\2024.2",
+                "--sysroot=D:\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-fslxtrace",
+                "-fslx-compile-mode",
+                "-fslxskipfunctionbody",
+                "-fhlstoplevel=full_cnn",
+                "C:/Users/Administrator/Desktop/EEE/full_cnn_tb.cpp",
+                "-o",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\build\\full_cnn_tb.cpp.0.o"
+            ],
+            "exectime": 0.675060510635376,
+            "cwd": "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv"
+        },
+        "['C:\\\\Users\\\\Administrator\\\\Desktop\\\\EEE\\\\hls\\\\cnn_conv\\\\cnn_conv\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\full_cnn.cpp.0.o', 'C:\\\\Users\\\\Administrator\\\\Desktop\\\\EEE\\\\hls\\\\cnn_conv\\\\cnn_conv\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\full_cnn.cpp.0.o.d']": {
+            "command": [
+                "d:\\vitis\\2024.2\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-MD",
+                "-MF",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\build\\full_cnn.cpp.0.o.d",
+                "-fhls-tb",
+                "-hls-sim-headers-dir=d:\\vitis\\2024.2\\vcxx\\data\\include",
+                "-vitis-hls=D:\\Vitis\\2024.2",
+                "--sysroot=D:\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-fslxtrace",
+                "-fslx-compile-mode",
+                "-fslxskipfunctionbody",
+                "-fhlstoplevel=full_cnn",
+                "C:/Users/Administrator/Desktop/EEE/full_cnn.cpp",
+                "-o",
+                "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv\\cnn_conv\\hls\\csim\\code_analyzer\\.internal\\build\\full_cnn.cpp.0.o"
+            ],
+            "exectime": 0.39075422286987305,
+            "cwd": "C:\\Users\\Administrator\\Desktop\\EEE\\hls\\cnn_conv"
+        }
+    }
+}
